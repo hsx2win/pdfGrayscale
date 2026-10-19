@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF to Grayscale Converter</title>
+
+    <!-- Load PDF.js and PDF-lib with strict CORS attributes -->
+    <script src="https://cdn.jsdelivr.net/npm/pdfjs-dist@2.6.347/build/pdf.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <input type="file" id="pdf-file" accept="application/pdf" multiple>
+    <button id="convert-btn">Convert to Grayscale</button>
+    <div id="progress-container">
+        <div id="progress-bar" style="width: 0%; height: 20px; background-color: #4CAF50;"></div>
+    </div>
+    <div id="download-links"></div>
+
+    <!-- Load your local app script -->
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
