@@ -1,32 +1,31 @@
-# Large Main Title (H1)
-## Section Heading (H2)
-### Sub-heading (H3)
+# GrayScale
+## Fuctions
+### overview
 
-This is **bold text** using two asterisks.
-This is *italic text* using one asterisk.
-This is ~~strikethrough text~~ using tildes.
-This is <u>underlined text</u> in a sentence.
-
-
+Make the original pdf file to **GrayScale** using pdf API.
+Need to deal with the colors to ensure *clear print* without being fading off.
+This app make pdf print faster without ~~color~~ with clear black and white.
+Color is beatiful <u>not neccessary</u>.
 
 
-- Item one
-- Item two
-
-1. First step
-2. Second step
 
 
-Check out [Google](https://google.com) for searching.
+- index.html
+- script.js
 
-![Markdown Logo|30](https://n.sinaimg.cn/sinakd10115/96/w2048h2048/20251231/943b-0f3c1313584dae9b4b9fc1fb70491c9a.png)
+1. Grayscaled
+2. Clear looking
+
+
+
+
+![Markdown Logo|30](image.png)
 
 <p align="center">
-  <img src="https://n.sinaimg.cn/sinakd10115/96/w2048h2048/20251231/943b-0f3c1313584dae9b4b9fc1fb70491c9a.png" width="200" alt="Centered Logo">
+  <img src="image.png" width="200" alt="Centered Logo">
 </p>
 
-
-To clear your screen, type `clear` and press enter.
+![alt text](image.png)
 
 
 
