@@ -17,6 +17,11 @@ Color is beatiful <u>not neccessary</u>.
 2. Clear looking
 
 
+### others
+cd /Users/[your ueser]/Library/Mobile\ Documents/com\~apple\~CloudDocs/NEU/Code/PDF-grayScale
+
+python3 -m http.server 8000
+
 
 
 ![Markdown Logo|30](image.png)
